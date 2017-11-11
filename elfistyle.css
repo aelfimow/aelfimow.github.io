@@ -1,4 +1,35 @@
 body
 {
-    background-color: #5FFA8C;
+    background-color: aqua;
+}
+
+nav
+{
+    background-color: blue;
+    margin: 10px 10px 0px 10px;
+}
+
+nav ul
+{
+    margin: 0px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+
+nav ul li
+{
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+
+nav ul li a:link, nav ul li a:visited
+{
+    color: yellow;
+    border-bottom: none;
+}
+
+nav ul li.selected
+{
+    background-color: red;
+    font-weight: bold;
 }
