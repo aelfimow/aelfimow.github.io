@@ -6,30 +6,34 @@ body
 nav
 {
     background-color: blue;
-    margin: 10px 10px 0px 10px;
 }
 
 nav ul
 {
-    margin: 0px;
+    margin: 0em;
     list-style-type: none;
-    padding: 5px 0px 5px 0px;
+    padding-left: 0em;
 }
 
 nav ul li
 {
     display: inline;
-    padding: 5px 10px 5px 10px;
+    padding: 0em 1em 0em 1em;
 }
 
 nav ul li a:link, nav ul li a:visited
 {
     color: yellow;
-    border-bottom: none;
 }
 
 nav ul li.selected
 {
     background-color: red;
     font-weight: bold;
+    border: solid;
+}
+
+ol.hobbyprojects_list
+{
+    padding-left: 3em;
 }
