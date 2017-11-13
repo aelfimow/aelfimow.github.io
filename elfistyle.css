@@ -1,6 +1,13 @@
 body
 {
     background-color: aqua;
+    font-size: large;
+    font-weight: normal;
+}
+
+h1
+{
+    font-size: 1.5em;
 }
 
 nav
@@ -11,7 +18,6 @@ nav
 nav ul
 {
     margin: 0em;
-    list-style-type: none;
     padding-left: 0em;
 }
 
@@ -36,4 +42,11 @@ nav ul li.selected
 ol.hobbyprojects_list
 {
     padding-left: 3em;
+}
+
+ol.hobbyprojects_list li a:hover
+{
+    border: solid;
+    font-weight: bold;
+    color: red;
 }
