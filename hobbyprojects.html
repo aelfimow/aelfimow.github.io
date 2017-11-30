@@ -4,7 +4,63 @@
     <meta charset="utf-8">
     <meta name="author" content="Alexander Elfimow">
     <title>Hobby projects by Alexander Elfimow</title>
-    <link rel="stylesheet" type="text/css" href="elfistyle.css" />
+    <style>
+    body
+    {
+        background-color: grey;
+        font-size: large;
+        font-weight: normal;
+    }
+    nav
+    {
+        background-color: blue;
+    }
+    nav ul
+    {
+        margin: 0em;
+        padding-left: 0em;
+    }
+    nav ul li
+    {
+        display: inline;
+        padding: 0em 1em 0em 1em;
+    }
+    nav ul li a:link, nav ul li a:visited
+    {
+        color: yellow;
+    }
+    nav ul li.selected
+    {
+        background-color: red;
+        font-weight: bold;
+        border: solid;
+    }
+    ol.hobbyprojects_list li a:hover
+    {
+        border: solid;
+        font-weight: bold;
+        color: red;
+    }
+    ol.hobbyprojects_list li:hover
+    {
+        transform: scale(1.1);
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+    }
+    ol.hobbyprojects_list li
+    {
+        display: block;
+        list-style: none;
+        z-index: 1;
+        float: left;
+        margin: 1em;
+        padding: 1em 1em 1em 1em;
+        width: 10em;
+        height: 10em;
+        background-color: white;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+        transition: all 0.25s ease-in;
+    }
+    </style>
 </head>
 <body>
     <nav>
