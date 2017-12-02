@@ -14,6 +14,7 @@
     nav
     {
         background-color: blue;
+        font-size: 200%;
     }
     nav ul
     {
@@ -25,6 +26,16 @@
         display: inline;
         padding: 0em 1em 0em 1em;
     }
+    nav ul li a
+    {
+        text-decoration: none;
+        color: white;
+        transition: 0.5s;
+    }
+    nav ul li a:hover
+    {
+        text-shadow: 0 0 .1em white, 0 0 .1em white;
+    }
     nav ul li a:link, nav ul li a:visited
     {
         color: yellow;
@@ -32,8 +43,8 @@
     nav ul li.selected
     {
         background-color: red;
-        font-weight: bold;
         border: solid;
+        text-shadow: 0 0 .1em yellow, 0 0 .1em yellow;
     }
     ol.hobbyprojects_list li a
     {
