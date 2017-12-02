@@ -37,11 +37,12 @@
     }
     ol.hobbyprojects_list li a
     {
+        text-decoration: none;
         transition: 0.5s;
     }
     ol.hobbyprojects_list li a:hover
     {
-        text-shadow: 0 0 .1em, 0 0 .3em;
+        text-shadow: 0 0 .1em red;
     }
     ol.hobbyprojects_list li:hover
     {
@@ -72,29 +73,29 @@
         </ul>
     </nav>
     <ol class="hobbyprojects_list">
-    <li>Proof of concept connecting ATmega644 with the good old 80287 math coprocessor: <a href="https://github.com/aelfimow/ATmega-meets-FPU">here</a></li>
-    <li>My home-made crystal oscillators: <a href="https://github.com/aelfimow/crystal-oscillators">here</a></li>
-    <li>A C++ generator for x86 assembly code: <a href="https://github.com/aelfimow/cppasm">here</a></li>
-    <li>Another one simple 4-bit CPU written in VHDL: <a href="https://github.com/aelfimow/elficpu1">here</a></li>
-    <li>Another one simple 8-bit CPU written in VHDL: <a href="https://github.com/aelfimow/elficpu2">here</a></li>
-    <li>Remote Audio Recorder: <a href="https://github.com/aelfimow/remote-audiorec">here</a></li>
-    <li>My Telegram bot for starting/stopping various tasks: <a href="https://github.com/aelfimow/elfibot-0">here</a></li>
-    <li>A collection of antennas I was lucky to spot: <a href="https://github.com/aelfimow/antenna-spotting">here</a></li>
-    <li>2.8 GHz prescaler with MCP12079 and LT1016: <a href="https://github.com/aelfimow/prescaler-mcp12079">here</a></li>
-    <li>1.1 GHz prescaler with U813BS (Telefunken) and BF1009SW: <a href="https://github.com/aelfimow/prescaler-u813">here</a></li>
-    <li>A collection of LC oscillators: <a href="https://github.com/aelfimow/LC-oscillators">here</a></li>
-    <li>64-bit xorshift random number generator functions (in x86 assembly language): <a href="https://github.com/aelfimow/xorshift64-asm">here</a></li>
-    <li>CPUID command line interface (64-bit) for Intel CPUs: <a href="https://github.com/aelfimow/cpuid-cli">here</a></li>
-    <li>Simple digital-to-analog controller with ATmega8515 for audio playback from external EPROM: <a href="https://github.com/aelfimow/dac-ctrl">here</a></li>
-    <li>My first self made calculator with ATmega162 and SCD5583A as a display: <a href="https://github.com/aelfimow/calc-atmega162">here</a></li>
-    <li>My first EPROMs programmer with ATmega644, PIO 8255 and other TTL logic ICs: <a href="https://github.com/aelfimow/eprom-tool-1">here</a></li>
-    <li>My second EPROMs programmer with ATmega8515 only: <a href="https://github.com/aelfimow/eprom-tool-2">here</a></li>
-    <li>My digital clock with Altera's CPLD EPM3064 and 8 digits 7-segment display hh:mm:ss.ds: <a href="https://github.com/aelfimow/digit-clock">here</a></li>
-    <li>Direct digital synthesizer (DDS) with ATmega8515, Xilinx XC9572 CPLD and SDA5708-24B display: <a href="https://github.com/aelfimow/dds-synth">here</a></li>
-    <li>Frequency counter implemented with CPLD EPM3064 only and HDSP-2113 display: <a href="https://github.com/aelfimow/frequency-counter-2">here</a></li>
-    <li>Small test application for playing with CLFLUSH instruction available on more or less up to date x86 Intel CPUs: <a href="https://github.com/aelfimow/clflush-test">here</a></li>
-    <li>Simple Collatz sequence generator in VHDL: <a href="https://github.com/aelfimow/collatz-gen">here</a></li>
-    <li>Frequency counter implemented with ATmega8515, CPLD EPM3064 and SCD5583 display: <a href="https://github.com/aelfimow/frequency-counter-1">here</a></li>
+    <li><a href="https://github.com/aelfimow/ATmega-meets-FPU">Proof of concept connecting ATmega644 with the good old 80287 math coprocessor</a></li>
+    <li><a href="https://github.com/aelfimow/crystal-oscillators">My home-made crystal oscillators</a></li>
+    <li><a href="https://github.com/aelfimow/cppasm">A C++ generator for x86 assembly code</a></li>
+    <li><a href="https://github.com/aelfimow/elficpu1">Another one simple 4-bit CPU written in VHDL</a></li>
+    <li><a href="https://github.com/aelfimow/elficpu2">Another one simple 8-bit CPU written in VHDL</a></li>
+    <li><a href="https://github.com/aelfimow/remote-audiorec">Remote Audio Recorder</a></li>
+    <li><a href="https://github.com/aelfimow/elfibot-0">My Telegram bot for starting/stopping various tasks</a></li>
+    <li><a href="https://github.com/aelfimow/antenna-spotting">A collection of antennas I was lucky to spot</a></li>
+    <li><a href="https://github.com/aelfimow/prescaler-mcp12079">2.8 GHz prescaler with MCP12079 and LT1016</a></li>
+    <li><a href="https://github.com/aelfimow/prescaler-u813">1.1 GHz prescaler with U813BS (Telefunken) and BF1009SW</a></li>
+    <li><a href="https://github.com/aelfimow/LC-oscillators">A collection of LC oscillators</a></li>
+    <li><a href="https://github.com/aelfimow/xorshift64-asm">64-bit xorshift random number generator functions (in x86 assembly language)</a></li>
+    <li><a href="https://github.com/aelfimow/cpuid-cli">CPUID command line interface (64-bit) for Intel CPUs</a></li>
+    <li><a href="https://github.com/aelfimow/dac-ctrl">Simple digital-to-analog controller with ATmega8515 for audio playback from external EPROM</a></li>
+    <li><a href="https://github.com/aelfimow/calc-atmega162">My first self made calculator with ATmega162 and SCD5583A as a display</a></li>
+    <li><a href="https://github.com/aelfimow/eprom-tool-1">My first EPROMs programmer with ATmega644, PIO 8255 and other TTL logic ICs</a></li>
+    <li><a href="https://github.com/aelfimow/eprom-tool-2">My second EPROMs programmer with ATmega8515 only</a></li>
+    <li><a href="https://github.com/aelfimow/digit-clock">My digital clock with Altera's CPLD EPM3064 and 8 digits 7-segment display hh:mm:ss.ds</a></li>
+    <li><a href="https://github.com/aelfimow/dds-synth">Direct digital synthesizer (DDS) with ATmega8515, Xilinx XC9572 CPLD and SDA5708-24B display</a></li>
+    <li><a href="https://github.com/aelfimow/frequency-counter-2">Frequency counter implemented with CPLD EPM3064 only and HDSP-2113 display</a></li>
+    <li><a href="https://github.com/aelfimow/clflush-test">Small test application for playing with CLFLUSH instruction available on more or less up to date x86 Intel CPUs</a></li>
+    <li><a href="https://github.com/aelfimow/collatz-gen">Simple Collatz sequence generator in VHDL</a></li>
+    <li><a href="https://github.com/aelfimow/frequency-counter-1">Frequency counter implemented with ATmega8515, CPLD EPM3064 and SCD5583 display</a></li>
     </ol>
 </body>
 </html>
